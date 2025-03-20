@@ -1,0 +1,22 @@
+layout:
+    actions:
+        - '@setOption':
+            id: currency_localization_container_inner
+            optionName: vars.triggerClass
+            optionValue: 'btn btn--flat'
+
+        - '@setOption':
+            id: main_menu_trigger
+            optionName: vars.triggerClass
+            optionValue: 'btn btn--inverse'
+
+        - '@setOption':
+            id: middle_bar_search
+            optionName: vars.cancelSearchClass
+            optionValue: 'btn btn--plain'
+
+        - '@setOption':
+            id: quick_access_button_container
+            optionName: vars.triggerClass
+            optionValue: 'btn btn--outlined'
+

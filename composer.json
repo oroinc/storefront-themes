@@ -1,0 +1,43 @@
+{
+    "name": "oro/storefront-themes",
+    "description": "Additional OroCommerce storefront themes",
+    "type": "symfony-bundle",
+    "keywords": [
+        "Oro",
+        "OroCommerce",
+        "Theme",
+        "Storefront Theme"
+    ],
+    "homepage": "https://github.com/oroinc/storefront-themes",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Oro, Inc",
+            "homepage": "https://oroinc.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oro\\Bundle\\GoldenCarbonThemeBundle\\": "src/Oro/Bundle/GoldenCarbonThemeBundle"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "require": {
+        "oro/commerce": "6.1.*"
+    },
+    "repositories": {
+        "oro": {
+            "type": "composer",
+            "url": "https://packagist.oroinc.com"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.1-dev"
+        }
+    }
+}

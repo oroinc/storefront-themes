@@ -1,0 +1,67 @@
+/* @theme: golden-carbon; */
+
+@use 'sass:map';
+
+$golden-carbon-color-palette: (
+    'primary': (
+        'main': #93703a,
+        'hover': #b48c50,
+        'active': #151515,
+        'disabled': #9ba1ac,
+        'light': #f1f4f8,
+        'light-50': #f8f1e6,
+    ),
+    'secondary': (
+        'c1': #754b71,
+        'c2': #3c3c3c,
+        'c3': #be4614,
+        'c4': #936f98,
+        'c5': #893b58,
+        'sale': #b94951
+    ),
+    'neutral': (
+        'white-100': #fff,
+        'white-50': rgb(255 255 255 / .5),
+        'white-30': rgb(255 255 255 / .3),
+        'white-15': rgb(255 255 255 / .15),
+        'grey1': #f6f8fa,
+        'grey2': #d4dadd,
+        'grey3': #c3c9cf,
+        'dark': #434953,
+        'focus': #434953
+    ),
+    'text': (
+        'primary': #002434,
+        'secondary': #455363,
+        'disabled': #6f727b,
+        'inverse': #fff,
+        'inverse-70': rgb(255 255 255 / .7),
+        'link': #1642e4,
+        'link-hover': #0d77d6,
+        'link-hover-on-dark': #4cb4fe
+    ),
+    'destructive': (
+        'light': #fff5f6,
+        'light-on-dark': rgb(255 107 107 / .2),
+        'base': #9c0000,
+        'main': #900000,
+        'main-on-dark': #ff6b6b,
+        'dark': #9c0000,
+        'disabled': #d17573
+    ),
+    'success': (
+        'light': #e7f4ea,
+        'dark': #005e1f
+    ),
+    'warning': (
+        'light': #faf6e3,
+        'base': #f19500,
+        'dark': #8f3700
+    ),
+    'info': (
+        'light': #f0f5fc,
+        'dark': #00489c
+    )
+) !default;
+
+$color-palette: map.deep-merge($color-palette, $golden-carbon-color-palette);

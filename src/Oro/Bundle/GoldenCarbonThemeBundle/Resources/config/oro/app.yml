@@ -1,0 +1,4 @@
+oro_layout:
+    active_theme: golden_carbon
+    enabled_themes:
+        - golden_carbon

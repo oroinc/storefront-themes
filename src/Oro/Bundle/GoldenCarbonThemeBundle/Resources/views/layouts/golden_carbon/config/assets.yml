@@ -1,0 +1,46 @@
+critical_css:
+    inputs:
+        # Settings
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/settings/global-settings.scss'
+
+        # Variables
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/uikit/buttons-config.scss'
+    output: 'css/critical.css'
+
+styles:
+    inputs:
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/settings/global-settings.scss'
+        # Bootstrap Required
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/settings/bootstrap/bootstrap.scss'
+
+        # Variables
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/uikit/buttons-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/page-header-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/logo-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/table-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/shopping-lists-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/search-widget-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/currency-localization-control-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/primary-menu-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/toggler-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/navigation-menu-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/main-menu-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/product-sticker-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/checkout-navigation-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/multistep-checkout-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/oro-toolbar-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/select2/select2-container-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/dashboard/dashboard-news-config.scss'
+
+        # Components
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/uikit/buttons.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/page-header.scss'
+    output: 'css/styles.css'
+    auto_rtl_inputs:
+        - 'bundles/oro*/**'
+
+stylebook_styles:
+    inputs:
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/settings/global-settings.scss'
+    output: 'css/stylebook.css'
+

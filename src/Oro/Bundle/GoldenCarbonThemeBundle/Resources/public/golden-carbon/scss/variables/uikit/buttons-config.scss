@@ -1,0 +1,53 @@
+/* @theme: golden-carbon; */
+
+@use 'sass:map';
+
+// Color Palette for buttons
+$golden-carbon-btn-palette: (
+    'outlined': (
+        'default': (
+            'color': get-var-color('primary', 'active')
+        ),
+        'hover': (
+            'background': get-var-color('primary', 'hover'),
+            'border-color': get-var-color('primary', 'hover'),
+            'color': get-var-color('neutral', 'white-100')
+        ),
+        'focus-visible': (
+            'color': get-var-color('primary', 'active')
+        ),
+        'active': (
+            'background': get-var-color('primary', 'active'),
+            'border-color': get-var-color('primary', 'active'),
+            'color': get-var-color('neutral', 'white-100')
+        )
+    ),
+    'plain': (
+        'default': (
+            'color': get-var-color('primary', 'active')
+        ),
+        'hover': (
+            'color': get-var-color('primary', 'active')
+        ),
+         'focus-visible': (
+            'color': get-var-color('primary', 'active')
+        ),
+        'active': (
+            'background': get-var-color('primary', 'light-50'),
+            'color': get-var-color('primary', 'active')
+        )
+    ),
+    'flat': (
+        'default': (
+            'color': get-var-color('primary', 'active')
+        ),
+        'focus-visible': (
+            'color': get-var-color('primary', 'active')
+        ),
+        'active': (
+            'color': get-var-color('primary', 'active')
+        )
+    )
+);
+
+$btn-palette: map.deep-merge($btn-palette, $golden-carbon-btn-palette);

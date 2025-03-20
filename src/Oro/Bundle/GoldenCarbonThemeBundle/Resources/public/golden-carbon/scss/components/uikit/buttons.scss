@@ -1,0 +1,49 @@
+/* @theme: golden-carbon; */
+
+.btn {
+    &--outlined {
+        .theme-icon {
+            fill: get-var-color('primary', 'main');
+        }
+    }
+
+    &--plain {
+        .theme-icon {
+            fill: get-var-color('primary', 'main');
+        }
+    }
+
+    &--flat {
+        .theme-icon {
+            fill: get-var-color('primary', 'main');
+        }
+    }
+
+    &--destructive-flat {
+        .theme-icon {
+            fill: currentColor;
+        }
+    }
+
+    &--outlined:hover,
+    &--outlined:focus,
+    &--outlined:active,
+    &--outlined:disabled {
+        .theme-icon {
+            fill: currentColor;
+        }
+    }
+
+    &--plain:disabled {
+        .theme-icon {
+            fill: currentColor;
+        }
+    }
+
+    &--flat:hover,
+    &--flat:disabled {
+        .theme-icon {
+            fill: currentColor;
+        }
+    }
+}

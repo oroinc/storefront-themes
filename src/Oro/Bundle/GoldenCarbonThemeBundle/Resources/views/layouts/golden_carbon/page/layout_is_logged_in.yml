@@ -1,0 +1,8 @@
+layout:
+    actions:
+        - '@setOption':
+            id: top_nav_customer_dropdown_trigger
+            optionName: vars.triggerClass
+            optionValue: 'btn btn--inverse'
+
+    conditions: 'context["is_logged_in"]'

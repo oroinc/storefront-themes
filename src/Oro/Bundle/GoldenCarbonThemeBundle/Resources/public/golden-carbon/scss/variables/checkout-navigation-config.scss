@@ -1,0 +1,10 @@
+/* @theme: golden-carbon; */
+
+$checkout-navigation-current-color: get-color('text', 'primary');
+$checkout-navigation-icon-color: get-color('text', 'disabled');
+
+$checkout-navigation-icon-current-color: get-color('text', 'inverse');
+$checkout-navigation-icon-current-background-color: get-color('primary', 'main');
+
+$checkout-navigation-icon-complete-color: get-color('text', 'inverse');
+$checkout-navigation-complete-background-color: get-color('secondary', 'c1');

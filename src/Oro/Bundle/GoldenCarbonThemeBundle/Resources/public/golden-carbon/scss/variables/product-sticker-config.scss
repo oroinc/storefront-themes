@@ -1,0 +1,9 @@
+/* @theme: golden-carbon; */
+
+$product-sticker-border-radius: 0;
+
+$product-sticker-new-arrival-background: get-var-color('secondary', 'c2');
+$product-sticker-new-arrival-color: get-var-color('text', 'inverse');
+
+$product-sticker-sale-background: get-var-color('secondary', 'sale');
+$product-sticker-sale-color: get-var-color('text', 'inverse');

@@ -1,0 +1,10 @@
+/* @theme: golden-carbon; */
+
+$page-header-border: 1px solid get-color('neutral', 'dark');
+$page-header-background-color: var(
+    #{get-var-key('page-header', 'background-color')},
+    get-color('neutral', 'white-100')
+);
+
+$page-header-promotional-link-color: null;
+$page-header-promotional-link-color-hover: null;
