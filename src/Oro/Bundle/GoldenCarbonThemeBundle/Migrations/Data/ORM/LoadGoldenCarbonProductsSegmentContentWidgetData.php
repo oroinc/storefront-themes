@@ -17,8 +17,8 @@ class LoadGoldenCarbonProductsSegmentContentWidgetData extends LoadProductsSegme
     {
         return [
             ...parent::getDependencies(),
-            LoadProductsSegmentContentWidgetData::class,
-            LoadGlobalGoldenCarbonThemeConfigurationData::class
+            LoadGlobalGoldenCarbonThemeConfigurationData::class,
+            LoadProductsSegmentContentWidgetData::class
         ];
     }
 
