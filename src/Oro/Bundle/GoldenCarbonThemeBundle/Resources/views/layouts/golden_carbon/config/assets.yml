@@ -31,6 +31,8 @@ styles:
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/oro-toolbar-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/select2/select2-container-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/dashboard/dashboard-news-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/dashboard/dashboard-scorecards-container-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/dashboard/dashboard-scorecard-link-config.scss'
 
         # Components
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/uikit/buttons.scss'
@@ -43,4 +45,3 @@ stylebook_styles:
     inputs:
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/settings/global-settings.scss'
     output: 'css/stylebook.css'
-

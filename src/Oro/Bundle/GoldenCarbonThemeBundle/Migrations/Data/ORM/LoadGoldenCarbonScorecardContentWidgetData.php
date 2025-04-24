@@ -3,14 +3,14 @@
 namespace Oro\Bundle\GoldenCarbonThemeBundle\Migrations\Data\ORM;
 
 use Doctrine\Persistence\ObjectManager;
-use Oro\Bundle\CMSBundle\Migrations\Data\ORM\SetProductSegmentsForThemeConfiguration;
+use Oro\Bundle\CommerceBundle\Migrations\Data\ORM\LoadScorecardContentWidgetData;
 use Oro\Bundle\OrganizationBundle\Entity\Organization;
 use Oro\Bundle\ThemeBundle\Entity\ThemeConfiguration;
 
 /**
- * Sets product segments for theme configuration for already installed applications for golden carbon theme
+ * Loads customer dashboards scorecard content widget data and configures theme configuration for golden carbon theme
  */
-class SetProductSegmentsForGoldenCarbonThemeConfiguration extends SetProductSegmentsForThemeConfiguration
+class LoadGoldenCarbonScorecardContentWidgetData extends LoadScorecardContentWidgetData
 {
     #[\Override]
     public function getDependencies(): array
@@ -18,7 +18,7 @@ class SetProductSegmentsForGoldenCarbonThemeConfiguration extends SetProductSegm
         return [
             ...parent::getDependencies(),
             LoadGlobalGoldenCarbonThemeConfigurationData::class,
-            SetProductSegmentsForThemeConfiguration::class
+            LoadScorecardContentWidgetData::class
         ];
     }
 

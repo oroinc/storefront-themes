@@ -8,7 +8,7 @@ use Oro\Bundle\OrganizationBundle\Entity\Organization;
 use Oro\Bundle\ThemeBundle\Entity\ThemeConfiguration;
 
 /**
- * Loads customer dashboards content widget data and configures theme configuration for golden carbon theme
+ * Loads customer dashboards datagrid content widget data and configures theme configuration for golden carbon theme
  */
 class LoadGoldenCarbonCustomerDashboardContentWidgetData extends LoadCustomerDashboardContentWidgetData
 {
@@ -17,8 +17,8 @@ class LoadGoldenCarbonCustomerDashboardContentWidgetData extends LoadCustomerDas
     {
         return [
             ...parent::getDependencies(),
-            LoadCustomerDashboardContentWidgetData::class,
-            LoadGlobalGoldenCarbonThemeConfigurationData::class
+            LoadGlobalGoldenCarbonThemeConfigurationData::class,
+            LoadCustomerDashboardContentWidgetData::class
         ];
     }
 
