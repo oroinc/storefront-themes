@@ -45,3 +45,8 @@ stylebook_styles:
     inputs:
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/settings/global-settings.scss'
     output: 'css/stylebook.css'
+
+print_styles:
+    output: 'css/styles-print.css'
+    auto_rtl_inputs:
+        - 'bundles/oro*/**'
