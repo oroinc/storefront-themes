@@ -3,19 +3,19 @@
 .btn {
     &--outlined {
         .theme-icon {
-            fill: get-var-color('primary', 'main');
+            color: $btn-outlined-icon-color;
         }
     }
 
     &--plain {
         .theme-icon {
-            fill: get-var-color('primary', 'main');
+            color: $btn-plain-icon-color;
         }
     }
 
     &--flat {
         .theme-icon {
-            fill: get-var-color('primary', 'main');
+            color: $btn-flat-icon-color;
         }
     }
 

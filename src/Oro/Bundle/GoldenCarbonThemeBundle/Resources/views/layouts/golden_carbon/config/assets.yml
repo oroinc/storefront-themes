@@ -33,10 +33,12 @@ styles:
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/dashboard/dashboard-news-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/dashboard/dashboard-scorecards-container-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/dashboard/dashboard-scorecard-link-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/inventory-levels-config.scss'
 
         # Components
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/uikit/buttons.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/page-header.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/inventory-level.scss'
     output: 'css/styles.css'
     auto_rtl_inputs:
         - 'bundles/oro*/**'
