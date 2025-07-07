@@ -1,0 +1,15 @@
+{% extends "@OroCommerceInvoice/layouts/default/twig/pdf_document/invoice_default/content.html.twig" %}
+
+{% block invoice_content_style %}
+    <link rel="stylesheet" media="all" href="{{ asset('build/golden_carbon/css/invoice-print.css') }}">
+{% endblock %}
+
+{% block invoice_header_logo %}
+    <div>
+        <img src="{{ asset(oro_theme_definition_value('logo_high_res')) }}"
+             alt="{{ 'oro.invoice.pdf_file.company_logo.label'|trans }}"
+             width="106"
+             height="16"
+        >
+    </div>
+{% endblock %}

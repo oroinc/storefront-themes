@@ -6,8 +6,15 @@ icon: bundles/orofrontend/default/images/favicon.ico
 favicons_path: bundles/orogoldencarbontheme/golden-carbon/favicons/
 logo: bundles/orogoldencarbontheme/golden-carbon/images/logo/demob2b-logo.svg
 logo_small: bundles/orofrontend/default/images/logo/demob2b-logo-small.svg
+logo_high_res: bundles/oroui/images/logo_high_res.svg
 rtl_support: true
 svg_icons_support: true
+config:
+    pdf_document:
+        invoice_default:
+            content_template: '@OroGoldenCarbonTheme/layouts/golden_carbon/twig/pdf_document/invoice_default/content.html.twig'
+            header_template: '@OroGoldenCarbonTheme/layouts/golden_carbon/twig/pdf_document/invoice_default/header.html.twig'
+            footer_template: '@OroGoldenCarbonTheme/layouts/golden_carbon/twig/pdf_document/invoice_default/footer.html.twig'
 fonts:
     main:
         preload: true
