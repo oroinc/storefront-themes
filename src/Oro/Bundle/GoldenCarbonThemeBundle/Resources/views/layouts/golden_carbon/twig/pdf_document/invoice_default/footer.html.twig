@@ -1,0 +1,7 @@
+{% extends "@OroCommerceInvoice/layouts/default/twig/pdf_document/invoice_default/footer.html.twig" %}
+
+{% block invoice_footer_style %}
+    <style>
+        {{ asset_source('build/golden_carbon/css/invoice-footer-pdf.css') }}
+    </style>
+{% endblock %}
