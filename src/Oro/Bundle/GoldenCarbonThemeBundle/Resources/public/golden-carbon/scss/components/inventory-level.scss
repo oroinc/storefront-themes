@@ -1,0 +1,9 @@
+/* @theme: golden-carbon; */
+
+.inventory-level {
+    &__icon {
+        .theme-icon {
+            color: $inventory-level-icon-color;
+        }
+    }
+}

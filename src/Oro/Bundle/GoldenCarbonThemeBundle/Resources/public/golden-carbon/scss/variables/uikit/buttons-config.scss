@@ -50,4 +50,8 @@ $golden-carbon-btn-palette: (
     )
 );
 
+$btn-outlined-icon-color: get-var-color('primary', 'main');
+$btn-plain-icon-color: get-var-color('primary', 'main');
+$btn-flat-icon-color: get-var-color('primary', 'main');
+
 $btn-palette: map.deep-merge($btn-palette, $golden-carbon-btn-palette);
