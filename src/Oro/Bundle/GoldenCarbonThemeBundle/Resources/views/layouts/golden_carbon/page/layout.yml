@@ -20,3 +20,7 @@ layout:
             optionName: vars.triggerClass
             optionValue: 'btn btn--outlined'
 
+        - '@setOption':
+            id: header_row_shopping_trigger
+            optionName: vars.triggerClass
+            optionValue: 'btn'
