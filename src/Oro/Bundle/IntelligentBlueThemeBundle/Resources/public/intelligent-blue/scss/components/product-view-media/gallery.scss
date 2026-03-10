@@ -1,0 +1,19 @@
+/* @theme: intelligent-blue; */
+
+.product-view-media-gallery {
+    &__nav {
+        .slick-track {
+            display: flex;
+            gap: $product-view-media-gallery-nav-item-gap;
+
+            &::before,
+            &::after {
+                content: none;
+            }
+        }
+
+        &__item {
+            float: initial;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+/* @theme: intelligent-blue; */
+
+.dashboard-scorecard-link {
+    &:focus-visible {
+        background: $dashboard-scorecard-link-hover-background;
+        color: $dashboard-scorecard-link-hover-color;
+    }
+}

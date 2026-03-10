@@ -18,7 +18,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Oro\\Bundle\\GoldenCarbonThemeBundle\\": "src/Oro/Bundle/GoldenCarbonThemeBundle"
+            "Oro\\Bundle\\GoldenCarbonThemeBundle\\": "src/Oro/Bundle/GoldenCarbonThemeBundle",
+            "Oro\\Bundle\\IntelligentBlueThemeBundle\\": "src/Oro/Bundle/IntelligentBlueThemeBundle"
         },
         "exclude-from-classmap": [
             "/Tests/"

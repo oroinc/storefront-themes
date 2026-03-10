@@ -1,0 +1,9 @@
+/* @theme: intelligent-blue; */
+
+$chart-colors: (
+    #a6c0db,
+    get-color('secondary', 'c1'),
+    get-color('secondary', 'c2'),
+    get-color('secondary', 'c3'),
+    get-color('secondary', 'c4')
+);

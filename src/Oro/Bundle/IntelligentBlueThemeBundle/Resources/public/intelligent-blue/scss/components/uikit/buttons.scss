@@ -1,0 +1,43 @@
+/* @theme: intelligent-blue; */
+
+.btn {
+    &--plain {
+        .theme-icon {
+            color: $btn-plain-icon-color;
+        }
+    }
+
+    &--flat {
+        .theme-icon {
+            color: $btn-flat-icon-color;
+        }
+    }
+
+    &--destructive-flat {
+        .theme-icon {
+            fill: currentColor;
+        }
+    }
+
+    &--outlined:hover,
+    &--outlined:focus,
+    &--outlined:active,
+    &--outlined:disabled {
+        .theme-icon {
+            fill: currentColor;
+        }
+    }
+
+    &--plain:disabled {
+        .theme-icon {
+            fill: currentColor;
+        }
+    }
+
+    &--flat:hover,
+    &--flat:disabled {
+        .theme-icon {
+            fill: currentColor;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+critical_css:
+    inputs:
+        # Settings
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/settings/global-settings.scss'
+
+        # Variables
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/uikit/buttons-config.scss'
+    output: 'css/critical.css'
+
+styles:
+    inputs:
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/settings/global-settings.scss'
+        # Bootstrap Required
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/settings/bootstrap/bootstrap.scss'
+
+        # Variables
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/uikit/buttons-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/page-header-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/logo-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/table-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/shopping-lists-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/search-widget-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/currency-localization-control-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/primary-menu-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/toggler-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/navigation-menu-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/main-menu-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/product-sticker-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/checkout-navigation-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/multistep-checkout-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/oro-toolbar-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/dashboard/dashboard-news-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/dashboard/dashboard-scorecards-container-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/dashboard/dashboard-scorecard-link-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/inventory-levels-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/checkbox-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/page-footer-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/copyright-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/information-nav-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/product-view-media/gallery-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/product-view-layout-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/loading-bar-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/info-list-status-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/dashboard/dashboard-menu-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/dashboard-scorecards-container-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/dashboard-scorecard-link-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/chart-container-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/main-menu-column.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/promo-slider-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/nav-tabs-config.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/variables/main-menu/multi/mega-menu-depth-1-config.scss'
+        
+        # Components
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/uikit/buttons.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/page-header.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/inventory-level.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/shopping-lists.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/product-view-layout.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/product-view-media/gallery.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/dashboard/dashboard-menu.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/dashboard/dashboard-scorecard-link.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/nav-tabs.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/dashboard-scorecards-container.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/main-menu.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/toggler.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/promo-slider.scss'
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/main-menu-column.scss'
+
+        # Overrides
+        - 'bundles/orocms/default/scss/components/featured-categories-theme.scss': 'bundles/orointelligentbluetheme/intelligent-blue/scss/components/featured-categories-theme.scss'
+    output: 'css/styles.css'
+    auto_rtl_inputs:
+        - 'bundles/oro*/**'
+
+stylebook_styles:
+    inputs:
+        - 'bundles/orointelligentbluetheme/intelligent-blue/scss/settings/global-settings.scss'
+    output: 'css/stylebook.css'
+
+print_styles:
+    output: 'css/styles-print.css'
+    auto_rtl_inputs:
+        - 'bundles/oro*/**'

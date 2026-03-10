@@ -1,0 +1,33 @@
+/* @theme: intelligent-blue; */
+/* stylelint-disable scale-unlimited/declaration-strict-value */
+
+.featured-categories-multicolored {
+    .featured-categories-grid {
+        &__cell {
+            &:nth-child(1) {
+                background-color: #fde5ac;
+            }
+            &:nth-child(2) {
+                background-color: #ffdeeb;
+            }
+            &:nth-child(3) {
+                background-color: #bce5ff;
+            }
+            &:nth-child(4) {
+                background-color: #bce5ff;
+            }
+            &:nth-child(5) {
+                background-color: #dfffd9;
+            }
+            &:nth-child(6) {
+                background-color: #cefffc;
+            }
+            &:nth-child(7) {
+                background-color: #dfffd9;
+            }
+            &:nth-child(8) {
+                background-color: #fde5ac;
+            }
+        }
+    }
+}

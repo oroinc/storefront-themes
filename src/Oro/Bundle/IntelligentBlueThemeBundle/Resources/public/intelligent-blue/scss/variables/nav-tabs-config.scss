@@ -1,0 +1,12 @@
+/* @theme: intelligent-blue; */
+
+$nav-tabs-link-color: get-color('text', 'primary');
+$nav-tabs-link-position: relative;
+$nav-tabs-link-active-font-weight: font-weight('semi-bold');
+
+$nav-tabs-link-active-after-content: '';
+$nav-tabs-link-active-after-background: get-color('primary', 'main');
+$nav-tabs-link-active-after-height: 3px;
+$nav-tabs-link-active-after-border-radius: 4px 4px 0 0;
+$nav-tabs-link-active-after-position: absolute;
+$nav-tabs-link-active-after-inset: auto 0 -1px;

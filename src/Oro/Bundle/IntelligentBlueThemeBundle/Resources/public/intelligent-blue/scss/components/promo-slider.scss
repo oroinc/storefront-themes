@@ -1,0 +1,13 @@
+/* @theme: intelligent-blue; */
+
+.promo-slider {
+    &__header-btn {
+        &:hover {
+            background-color: $promo-slider-header-btn-hover-background-color;
+
+            .theme-icon {
+                color: $promo-slider-header-btn-hover-theme-icon-color;
+            }
+        }
+    }
+}

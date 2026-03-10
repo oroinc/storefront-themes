@@ -1,0 +1,9 @@
+/* @theme: intelligent-blue; */
+
+.main-menu-column {
+    &__item &__link {
+        &:hover {
+            color: $main-menu-column-link-hover-color;
+        }
+    }
+}

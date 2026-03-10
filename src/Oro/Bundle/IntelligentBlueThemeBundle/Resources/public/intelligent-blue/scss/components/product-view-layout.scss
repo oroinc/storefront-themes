@@ -1,0 +1,9 @@
+/* @theme: intelligent-blue; */
+
+@include breakpoint('mobile-landscape') {
+    .product-view {
+        &__headline {
+            order: 1;
+        }
+    }
+}

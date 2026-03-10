@@ -1,0 +1,97 @@
+/* @theme: intelligent-blue; */
+
+.main-menu-standalone-mode {
+    .main-menu {
+        &__link,
+        &__button:only-child {
+            &:focus-visible {
+                color: $main-menu-link-color-hover;
+                text-decoration: $main-menu-link-text-decoration-focus;
+                outline: $base-ui-element-focus-visible-outline;
+                outline-offset: $base-ui-element-focus-visible-outline-offset;
+                box-shadow: $focus-visible-style;
+            }
+        }
+
+        &__inner--fullheight {
+            .main-menu-multi__container-title-inner {
+                text-transform: $main-menu-title-text-transform;
+                font-weight: $main-menu-title-font-weight;
+                color: $main-menu-title-color;
+                text-decoration: $main-menu-title-text-decoration;
+
+                &:hover {
+                    color: $main-menu-link-hover-color;
+                    text-decoration: $main-menu-link-hover-text-decoration;
+                }
+            }
+
+            .mega-menu-depth-1__actions {
+                position: $main-menu-actions-position;
+
+                &::after {
+                    content: $main-menu-actions-after-content;
+                    background-color: $main-menu-actions-after-color;
+                    mask-image: $main-menu-multi-actions-has-sublist-icon;
+                    width: $main-menu-actions-after-size;
+                    height: $main-menu-actions-after-size;
+                    display: $main-menu-actions-after-display;
+                    align-items: $main-menu-actions-after-align-items;
+                    justify-content: $main-menu-actions-after-justify-content;
+                    position: $main-menu-actions-after-position;
+                    inset-inline-end: $main-menu-actions-after-inset-inline-end;
+                    inset-inline-start: $main-menu-actions-after-inset-inline-start;
+                    inset-block-start: $main-menu-actions-after-inset-block-start;
+                    transform: $main-menu-actions-after-transform;
+                    pointer-events: $main-menu-actions-after-pointer-events;
+                }
+            }
+
+            .mega-menu-depth-1__button {
+                font-weight: $main-menu-actions-font-weight;
+                color: $main-menu-actions-color;
+            }
+
+            .mega-menu-depth-1__item {
+                @media (hover: hover) {
+                    &:hover .mega-menu-depth-1__actions {
+                        background: $main-menu-actions-hover-background;
+                    }
+                }
+            }
+
+            .mega-menu-depth-1__title-inner {
+                text-transform: $main-menu-title-text-transform;
+                color: $main-menu-title-color;
+                text-decoration: $main-menu-title-text-decoration;
+
+                &:hover {
+                    color: $main-menu-link-hover-color;
+                    text-decoration: $main-menu-link-hover-text-decoration;
+                }
+            }
+
+            .mega-menu-depth-2__link {
+                text-transform: $main-menu-section-text-transform;
+                font-weight: $main-menu-section-font-weight;
+                color: $main-menu-section-color;
+                text-decoration: $main-menu-section-text-decoration;
+
+                &:hover {
+                    color: $main-menu-link-hover-color;
+                    text-decoration: $main-menu-link-hover-text-decoration;
+                }
+            }
+
+            .mega-menu-depth-3__link {
+                color: $main-menu-item-color;
+                text-decoration: $main-menu-item-text-decoration;
+
+                &:hover {
+                    color: $main-menu-link-hover-color;
+                    text-decoration: $main-menu-link-hover-text-decoration;
+                }
+            }
+        }
+    }
+}

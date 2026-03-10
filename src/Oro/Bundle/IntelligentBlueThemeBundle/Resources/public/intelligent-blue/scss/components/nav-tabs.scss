@@ -1,0 +1,25 @@
+/* @theme: intelligent-blue; */
+
+.nav-tabs {
+    .nav-link {
+        color: $nav-tabs-link-color;
+        position: $nav-tabs-link-position;
+
+        &.active {
+            font-weight: $nav-tabs-link-active-font-weight;
+        }
+
+        &.active,
+        &:hover,
+        &:focus-visible {
+            &::after {
+                content: $nav-tabs-link-active-after-content;
+                background: $nav-tabs-link-active-after-background;
+                height: $nav-tabs-link-active-after-height;
+                border-radius: $nav-tabs-link-active-after-border-radius;
+                position: $nav-tabs-link-active-after-position;
+                inset: $nav-tabs-link-active-after-inset;
+            }
+        }
+    }
+}

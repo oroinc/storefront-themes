@@ -1,0 +1,9 @@
+/* @theme: intelligent-blue; */
+
+.inventory-level {
+    &__icon {
+        .theme-icon {
+            color: $inventory-level-icon-color;
+        }
+    }
+}

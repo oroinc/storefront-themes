@@ -1,0 +1,4 @@
+oro_layout:
+    active_theme: intelligent_blue
+    enabled_themes:
+        - intelligent_blue

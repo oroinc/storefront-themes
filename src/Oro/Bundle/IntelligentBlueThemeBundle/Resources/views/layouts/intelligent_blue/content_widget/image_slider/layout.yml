@@ -1,0 +1,14 @@
+layout:
+    actions:
+        - '@setOption':
+            id: content_widget_image_slider
+            optionName: vars.slideBtnIconName
+            optionValue: 'arrow-right-big'
+        - '@setOption':
+            id: content_widget_image_slider
+            optionName: vars.slideBtnIconClass
+            optionValue: 'theme-icon--xl'
+        - '@setOption':
+            id: content_widget_image_slider
+            optionName: vars.slideBtnClass
+            optionValue: 'btn btn--size-large btn--plain promo-slider__header-btn'

@@ -1,0 +1,5 @@
+bundles:
+    - {
+        name: Oro\Bundle\IntelligentBlueThemeBundle\OroIntelligentBlueThemeBundle,
+        priority: 100 # Must be greater than MultiWebsiteBundle has.
+    }

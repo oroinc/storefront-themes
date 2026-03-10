@@ -1,0 +1,17 @@
+/* @theme: intelligent-blue; */
+
+$shopping-lists-btn-background-color: get-var-color('neutral', 'white-100');
+$shopping-lists-btn-focus-background-color: get-var-color('neutral', 'white-100');
+$shopping-lists-btn-active-background-color: get-var-color('primary', 'active');
+$shopping-lists-btn-focus-hover-background-color: get-var-color('primary', 'light');
+
+$shopping-lists-btn-outlined-background: get-color('primary', 'light-50');
+$shopping-lists-btn-outlined-color: get-color('primary', 'main');
+$shopping-lists-btn-outlined-border-color: transparent;
+$shopping-lists-btn-outlined-hover-border-color: transparent;
+$shopping-lists-btn-outlined-focus-visible-color: get-color('primary', 'light-50');
+$shopping-lists-btn-outlined-focus-background: get-color('primary', 'main');
+
+$shopping-lists-text-background-color: get-color('primary', 'light-50');
+$shopping-lists-text-border: none;
+$shopping-lists-text-border-radius: $base-ui-element-border-radius;

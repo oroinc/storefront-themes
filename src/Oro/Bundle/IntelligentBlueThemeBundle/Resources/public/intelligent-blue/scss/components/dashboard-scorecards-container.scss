@@ -1,0 +1,11 @@
+/* @theme: intelligent-blue; */
+
+.dashboard-scorecards-container {
+    &__item {
+        &:not(:last-child) {
+            &::after {
+                z-index: z('base');
+            }
+        }
+    }
+}

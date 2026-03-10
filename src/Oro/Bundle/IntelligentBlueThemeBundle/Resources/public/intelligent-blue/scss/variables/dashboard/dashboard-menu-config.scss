@@ -1,0 +1,12 @@
+/* @theme: intelligent-blue; */
+
+$dashboard-menu-link-background: get-color('neutral', 'white-100');
+$dashboard-menu-link-background-hover: get-color('primary', 'light-50');
+$dashboard-menu-link-background-focus: get-color('primary', 'light-50');
+$dashboard-menu-icon-color: get-color('primary', 'main');
+
+$dashboard-menu-link-color: get-color('text', 'primary');
+$dashboard-menu-link-color-hover: get-color('primary', 'main');
+$dashboard-menu-link-color-focus: get-color('primary', 'main');
+
+$dashboard-menu-link-border: 1px solid get-color('secondary', 'c5');

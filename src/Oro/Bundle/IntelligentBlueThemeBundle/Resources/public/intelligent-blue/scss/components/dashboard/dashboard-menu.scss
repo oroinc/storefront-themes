@@ -1,0 +1,15 @@
+/* @theme: intelligent-blue; */
+
+.dashboard-menu {
+    &__link {
+        border: $dashboard-menu-link-border;
+
+        &:hover {
+            color: $dashboard-menu-link-color-hover;
+        }
+
+        &:focus-visible {
+            color: $dashboard-menu-link-color-focus;
+        }
+    }
+}

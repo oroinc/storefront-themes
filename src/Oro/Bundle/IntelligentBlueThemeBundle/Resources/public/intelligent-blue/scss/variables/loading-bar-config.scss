@@ -1,0 +1,9 @@
+/* @theme: intelligent-blue; */
+
+@use 'sass:color';
+
+$loading-bar-background: get-color('primary', 'main');
+$loading-bar-box-shadow: 0 0 10px $loading-bar-background;
+
+$loading-bar-point-background: color.adjust($loading-bar-background, $lightness: 20%);
+$loading-bar-point-box-shadow: 0 0 50px 50px $loading-bar-point-background;

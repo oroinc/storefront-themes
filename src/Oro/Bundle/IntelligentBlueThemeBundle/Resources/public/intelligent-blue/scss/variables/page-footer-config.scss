@@ -1,0 +1,6 @@
+/* @theme: intelligent-blue; */
+
+$page-footer-background: var(
+    #{get-var-key('footer', 'background')},
+    #{get-color('primary', 'light')}
+);

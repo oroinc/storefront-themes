@@ -1,0 +1,40 @@
+/* @theme: intelligent-blue; */
+
+$main-menu-link-color: get-color('text', 'primary');
+$main-menu-link-color-hover: get-color('text', 'link-hover');
+
+$main-menu-title-text-transform: none;
+$main-menu-title-font-weight: font-weight('semi-bold');
+$main-menu-title-color: get-color('primary', 'main');
+$main-menu-title-text-decoration: underline;
+
+$main-menu-section-text-transform: uppercase;
+$main-menu-section-font-weight: font-weight('semi-bold');
+$main-menu-section-color: get-color('text', 'secondary');
+$main-menu-section-text-decoration: none;
+
+$main-menu-item-color: get-color('text', 'primary');
+$main-menu-item-text-decoration: none;
+
+$main-menu-link-hover-color: get-color('text', 'link-hover');
+$main-menu-link-hover-text-decoration: none;
+
+$main-menu-actions-font-weight: font-weight('normal');
+$main-menu-actions-color: get-color('text', 'primary');
+$main-menu-actions-hover-background: get-color('neutral', 'grey1');
+$main-menu-actions-hover-after-color: get-color('text', 'link-hover');
+
+$main-menu-actions-position: relative;
+
+$main-menu-actions-after-content: '';
+$main-menu-actions-after-color: get-color('text', 'secondary');
+$main-menu-actions-after-size: 20px;
+$main-menu-actions-after-display: inline-flex;
+$main-menu-actions-after-align-items: center;
+$main-menu-actions-after-justify-content: center;
+$main-menu-actions-after-position: absolute;
+$main-menu-actions-after-inset-inline-end: 24px;
+$main-menu-actions-after-inset-inline-start: auto;
+$main-menu-actions-after-inset-block-start: 50%;
+$main-menu-actions-after-transform: translateY(-50%);
+$main-menu-actions-after-pointer-events: none;

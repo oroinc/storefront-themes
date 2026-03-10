@@ -1,0 +1,21 @@
+/* @theme: intelligent-blue; */
+
+.shopping-lists {
+    .btn {
+        --btn-outlined-background: #{$shopping-lists-btn-outlined-background};
+        --btn-outlined-color: #{$shopping-lists-btn-outlined-color};
+        --btn-outlined-border-color: #{$shopping-lists-btn-outlined-border-color};
+        --btn-outlined-hover-border-color: #{$shopping-lists-btn-outlined-hover-border-color};
+        --btn-outlined-focus-background: #{$shopping-lists-btn-outlined-focus-background};
+        --btn-outlined-focus-visible-color: #{$shopping-lists-btn-outlined-focus-visible-color};
+
+        &.shopping-lists__area-trigger {
+            --btn-outlined-background: unset;
+            --btn-outlined-color: unset;
+            --btn-outlined-border-color: unset;
+            --btn-outlined-hover-border-color: unset;
+            --btn-outlined-focus-background: unset;
+            --btn-outlined-focus-visible-color: unset;
+        }
+    }
+}
