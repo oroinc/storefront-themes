@@ -25,6 +25,7 @@ styles:
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/toggler-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/navigation-menu-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/main-menu-config.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/main-menu/multi/mega-menu-depth-1-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/product-sticker-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/checkout-navigation-config.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/variables/multistep-checkout-config.scss'
@@ -38,6 +39,7 @@ styles:
         # Components
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/uikit/buttons.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/page-header.scss'
+        - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/main-menu.scss'
         - 'bundles/orogoldencarbontheme/golden-carbon/scss/components/inventory-level.scss'
     output: 'css/styles.css'
     auto_rtl_inputs:

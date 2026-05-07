@@ -2,3 +2,11 @@
 
 $main-menu-link-color: get-color('text', 'primary');
 $main-menu-link-color-hover: get-color('text', 'secondary');
+
+$main-menu-inner-fullheight-focus-visible-outline-offset: 0;
+$main-menu-inner-fullheight-container-padding: 2px;
+$main-menu-inner-fullheight-scroll-shadow-padding-block: 2px;
+$main-menu-inner-fullheight-scroll-shadow-padding-inline-start: 2px;
+$main-menu-inner-fullheight-list-padding: 2px;
+
+$main-menu-stack-mode-actions-margin-inline-end: spacing('xs');

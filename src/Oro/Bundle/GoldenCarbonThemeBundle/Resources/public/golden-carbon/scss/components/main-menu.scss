@@ -1,0 +1,62 @@
+/* @theme: golden-carbon; */
+
+.main-menu-stack-mode {
+    .main-menu {
+        &__actions {
+            grid-template-columns:
+                $main-menu-multi-actions-grid-template-columns
+                #{spacing('base') - spacing('xs')};
+        }
+
+        &__button,
+        &__link {
+            grid-column: #{1 / 7};
+        }
+    }
+}
+
+@include breakpoint('mega-menu-wide') {
+    .main-menu-stack-mode {
+        .mega-menu-depth-1 {
+            &__actions {
+                grid-template-columns:
+                    $main-menu-multi-actions-grid-template-columns
+                    #{spacing('lg') - spacing('xs')};
+            }
+
+            &__button,
+            &__link {
+                grid-column: #{1 / 7};
+            }
+        }
+    }
+}
+
+.main-menu-standalone-mode {
+    .main-menu {
+        &__inner--fullheight {
+            // Preventing focus visible style from being cut by overflow containers
+            --focus-visible-outline-offset: #{$main-menu-inner-fullheight-focus-visible-outline-offset};
+
+            a:focus-visible,
+            button:focus-visible {
+                outline: $base-ui-element-focus-visible-outline;
+                outline-offset: $base-ui-element-focus-visible-outline-offset;
+                box-shadow: $focus-visible-style;
+            }
+
+            .main-menu-multi__container-inner {
+                padding: $main-menu-inner-fullheight-container-padding;
+            }
+
+            .mega-menu-depth-1__list {
+                padding: $main-menu-inner-fullheight-list-padding;
+            }
+
+            .mega-menu-depth-2__scroll-shadow {
+                padding-block: $main-menu-inner-fullheight-scroll-shadow-padding-block;
+                padding-inline-start: $main-menu-inner-fullheight-scroll-shadow-padding-inline-start;
+            }
+        }
+    }
+}
