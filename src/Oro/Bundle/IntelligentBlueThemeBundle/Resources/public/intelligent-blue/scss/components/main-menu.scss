@@ -29,7 +29,7 @@
             .mega-menu-depth-1__actions {
                 position: $main-menu-actions-position;
 
-                &::after {
+                &:not(:only-child)::after {
                     content: $main-menu-actions-after-content;
                     background-color: $main-menu-actions-after-color;
                     mask-image: $main-menu-multi-actions-has-sublist-icon;
