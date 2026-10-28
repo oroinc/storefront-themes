@@ -8,4 +8,4 @@ GoldenCarbonThemeBundle contains configuration files, layout updates, SCSS, and 
 
 ## License
 
-[OSL-3.0](LICENSE) Copyright (c) 2025 Oro Inc.
+[OSL-3.0](LICENSE) Copyright (c) 2026 Oro Inc.
