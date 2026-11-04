@@ -15,6 +15,10 @@ config:
             content_template: '@OroIntelligentBlueTheme/layouts/intelligent_blue/twig/pdf_document/invoice_default/content.html.twig'
             header_template: '@OroIntelligentBlueTheme/layouts/intelligent_blue/twig/pdf_document/invoice_default/header.html.twig'
             footer_template: '@OroIntelligentBlueTheme/layouts/intelligent_blue/twig/pdf_document/invoice_default/footer.html.twig'
+        order_default:
+            content_template: '@OroIntelligentBlueTheme/layouts/intelligent_blue/twig/pdf_document/order_default/content.html.twig'
+            header_template: '@OroIntelligentBlueTheme/layouts/intelligent_blue/twig/pdf_document/order_default/header.html.twig'
+            footer_template: '@OroIntelligentBlueTheme/layouts/intelligent_blue/twig/pdf_document/order_default/footer.html.twig'
 fonts:
     main:
         preload: true

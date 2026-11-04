@@ -1,7 +1,3 @@
+{# Kept for backward compatibility, in case a derived theme extends it #}
+{# The parent template already resolves the theme-specific styles #}
 {% extends "@OroOrder/layouts/default/twig/pdf_document/order_default/footer.html.twig" %}
-
-{% block invoice_footer_style %}
-    <style>
-        {{ asset_source('build/golden_carbon/css/invoice-footer-pdf.css') }}
-    </style>
-{% endblock %}
